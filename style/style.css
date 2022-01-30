@@ -1,0 +1,415 @@
+.header {
+  padding: 26px 0 507px 0;
+}
+.header .upper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .lower-header {
+  padding: 174px 0px 0 0;
+  text-align: center;
+}
+.header .lower-header .lower-header__title {
+  font-weight: 400;
+  font-size: 74px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: #212733;
+}
+.header .lower-header .lower-header__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 20px 0 80px 0;
+}
+.header .lower-header .arrow-right__header-btn {
+  margin: 0 0 0 44px;
+}
+
+.background-image {
+  width: 100%;
+  height: 1030px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.about-me-section {
+  background: #F1F1F1;
+  height: 940px;
+}
+.about-me-section .main-about-me {
+  height: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.about-me-section .main-about-me .about-me__image {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  margin: 1px 0 0 0;
+}
+.about-me-section .main-about-me .about-me__image img {
+  width: 100%;
+  height: 940px;
+}
+.about-me-section .main-about-me .about-me__info {
+  width: 500px;
+  text-align: right;
+}
+.about-me-section .main-about-me .about-me__info-title {
+  margin: 34px 0 64px 0;
+}
+.about-me-section .main-about-me .about-me__info-subtitle {
+  margin: 0 0 40px 0;
+}
+
+.portfolio-section {
+  padding: 90px 0 0 0;
+}
+.portfolio-section .portfolio__title {
+  text-align: center;
+  margin: 0 0 70px 0;
+}
+.portfolio-section .main-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-section .main-portfolio .portfolio__btn {
+  position: absolute;
+  display: inline-block;
+  margin: 0px 0px 287px 898px;
+}
+
+.sentence-section {
+  padding: 90px 0 90px 0;
+  background: #1A1F25;
+}
+.sentence-section .sentence-title {
+  color: #fff;
+  text-align: center;
+  margin: 0 0 80px 0;
+}
+.sentence-section .main-sentence {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sentence-section .main-sentence .sentence-blog {
+  width: 240px;
+  height: 210px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sentence-section .main-sentence .sentence-blog .sentence-blog__image {
+  width: 100%;
+  text-align: center;
+}
+.sentence-section .main-sentence .sentence-blog .sentence-blog__subtitle {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #fff;
+}
+.sentence-section .main-sentence .sentence-blog .sentence__btn {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.sentence-section .main-sentence .sentence__line {
+  width: 100%;
+  border: 1px solid #595959;
+}
+.sentence-section .main-sentence .sentence__line-right {
+  height: 210px;
+  border: 1px solid #595959;
+}
+
+.benefites-section {
+  padding: 336px 0 187px 0;
+}
+.benefites-section .benefites__title {
+  margin: 0 0 30px 0;
+}
+.benefites-section .main-bemefites {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.benefites-section .main-bemefites .benefites-blog {
+  width: 602px;
+  display: flex;
+  align-items: flex-start;
+  margin: 60px 0 0 0;
+}
+.benefites-section .main-bemefites .benefites-blog .benefites-blog__title {
+  width: 430px;
+  margin: 0 0 0 20px;
+  line-height: 24px;
+  color: #1A1F25;
+}
+
+.lower-backgroud__image {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  z-index: -1;
+  margin: -900px 0 0 0;
+}
+
+.contacts-section {
+  height: 940px;
+  background: #000201;
+}
+.contacts-section .main-contancts {
+  height: 940px;
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts-section .main-contancts .main-contacts__register {
+  width: 50%;
+  background: url(./../img/city.png) no-repeat 0px 0px;
+  height: 940px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog {
+  width: 606px;
+  padding: 0 100px 0 0;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog .main-contacts__register-title {
+  margin: 173px 0 0 0;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog .main-contacts__form {
+  display: block;
+  margin: 80px 0 78px 0;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog .main-contacts__form .main-contacts__label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog .main-contacts__form .main-contacts__input {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 0 0 42px 0;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog .main-contacts__form .main-contacts__texterea {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #Fff;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog .main-contacts__btn {
+  padding: 17px 30px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__register .main-contacts__register-blog .main-contacts__btn img {
+  margin: 0 0 0 31px;
+}
+.contacts-section .main-contancts .main-contacts__suggestions-title {
+  margin: 173px 0 0 0;
+  color: #fff;
+  text-align: right;
+}
+.contacts-section .main-contancts .main-contacts__suggestions .main-contacts__suggestion-blogs {
+  display: flex;
+  margin: 138px 0 0 0;
+}
+.contacts-section .main-contancts .main-contacts__suggestions .main-contacts__suggestion-blogs .main-contacts__suggestion-blog {
+  width: 192.5px;
+  height: 284px;
+  padding: 59px 14px 30px 15px;
+  margin: 0 7px 0 0;
+  border: 1px solid #fff;
+}
+.contacts-section .main-contancts .main-contacts__suggestions .main-contacts__suggestion-blogs .main-contacts__suggestion-blog-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__suggestions .main-contacts__suggestion-blogs .main-contacts__suggestion-blog-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 15px 0 0 0;
+  color: #E8E8E8;
+}
+.contacts-section .main-contancts .main-contacts__suggestions .main-contacts__suggestion-blogs .main-contacts__suggestion-blog-price-no-that {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: line-through;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__suggestions .main-contacts__suggestion-blogs .main-contacts__suggestion-blog-price {
+  font-weight: 500;
+  font-size: 24px;
+  position: absolute;
+  line-height: 29px;
+  margin: 6px 0 0 0;
+  color: #fff;
+}
+.contacts-section .main-contancts .main-contacts__suggestions .main-contacts__suggestion-blog:hover {
+  background: linear-gradient(180deg, #61B3C9 0%, #074D88 100%);
+}
+
+.footer {
+  padding: 103px 0 102px 0;
+  background: #17181C;
+}
+.footer .main-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 45px 0;
+}
+.footer .main-footer .footer-blog {
+  width: 295px;
+}
+.footer .main-footer .footer-blog__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 33px 0;
+  color: #fff;
+}
+.footer .main-footer .footer-blog__subtitle {
+  width: 266px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e5e5e5;
+}
+.footer .main-footer .footer-blog__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 27px 0 0 0;
+  color: #e5e5e5;
+}
+.footer .main-footer .footer-blog__subtitle-blog {
+  display: flex;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+.footer .main-footer .footer-blog__subtitle-blog .footer-blog__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  margin: 0 0 0 14px;
+  color: #e5e5e5;
+}
+.footer .lower-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 41px 0 0 0;
+  border-top: 1px solid #595959;
+}
+.footer .lower-footer .lower-footer__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+}
+.footer .lower-footer .lower-footer__icons-blog {
+  display: flex;
+}
+.footer .lower-footer .lower-footer__icons-blog .footer-icon-blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+  background-color: #fff;
+}
+
+.popup.show {
+  opacity: 1;
+  z-index: 99;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s ease 0s;
+}
+.popup .popup__body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup .popup__body .popup__content {
+  min-width: 660px;
+  height: 450px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+.popup .popup__body .popup__content-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 30px 0 15px;
+  color: #212733;
+}
+.popup .popup__body .popup__content-subtitle {
+  width: 386px;
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 24px;
+  margin: 0 0 30px 0;
+  color: #212733;
+}
+.popup .popup__body .popup__content-lower {
+  padding: 64px 0 63px 0;
+  background: #7DBAAB;
+}
+.popup .popup__body .popup__content-lower .popup__content__btn {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.popup .popup__body .popup__content-lower .popup__content__btn img {
+  margin: 0 0 0 22px;
+}
+
+/*# sourceMappingURL=style.css.map */

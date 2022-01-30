@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1214px;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#last-blog {
+    margin: 0;
+}
+
+.btn {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 30px;
+    text-decoration: none;
+    border: 1px solid #000;
+    cursor: pointer;
+    color: #000;
+}
+
+.btn__arrow {
+    margin: 0 0 0 18.48px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000;
+}
+
+
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #606060;
+}
+
+.dektop {
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+.background__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
